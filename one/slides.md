@@ -57,3 +57,28 @@ Ben Hescott
 * access to one at a time
 * kernel reduction induces a many-one reduction
   1. \\( (x,y)\mapsto (f(x), f(y))\\)
+
+<!SLIDE bullets incremental small transition=uncover>
+
+# Kernel reductions #
+
+* \\(R \leq\_{ker} ^ {P} S \\) if there exists a \\(f\in\mathsf{FP}\colon\\)
+  1. \\( (x,y)\in R\\) if and only if \\( (f(x), f(y))\in S \\)
+
+<!SLIDE bullets incremental small transition=uncover>
+
+# Basic facts about kernel reductions #
+
+* kernel reductions preserve equivalence classes:
+  1. *\\( R\leq\_{ker} ^ P S \implies f([w]_R) \subseteq [f(w)]\_S \\)*
+* number of equivalence classes is important:
+  1. *if \\(R\\) has more eq. classes than \\(S\\) then \\(R \nleq\_{ker} S \\)*
+
+<!SLIDE bullets incremental smaller transition=uncover>
+
+# Polynomial time kernel vs. many-one reductions in \\(\mathsf{P}\\) #
+
+* consider \\(R\_n=\\{(x,y)|x\equiv y\pmod{n}\\}\\)
+* \\( R\_3 \leq\_m ^ P R\_2 \\) : if \\( x\equiv y\pmod{3} \\) output
+  \\( (0, 0) \\) else output \\( (0, 1) \\)
+* \\( R\_3 \nleq\_{ker} ^ P R\_2 \\)
