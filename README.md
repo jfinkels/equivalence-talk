@@ -26,7 +26,7 @@ from this directory. Navigate to http://localhost:9090 in a web browser to
 begin the presentation.
 
 [1]: http://mathjax.org
-[2]: https://github.com/jfinkels/showoff
+[2]: https://github.com/jfinkels/showoff/tree/mathjax-support
 
 Contact
 -------
