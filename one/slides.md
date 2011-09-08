@@ -37,10 +37,23 @@ Ben Hescott
 \\((x,y)\in R\\) and \\((y,z)\in R \implies (x,z)\in R\\)
 * generalization of the idea of equality
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental smaller transition=uncover>
 
 # Equivalence relations and computation #
 
 * \\(\mathsf{NPEq}\\): equivalence relations in \\(\mathsf{NP}\\)
-  * graph isomorphism is in \\(\mathsf{NPEq}\\)
-  * 
+* contains graph isomorphism
+* can construct various others from common problems in \\(\mathsf{NP}\\):
+* \\(\\{((G, k), (H, k)) | G\\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\) both have a clique of size \\(k\\}\\)
+* what do we know about the clique problem? (we'll return to this)
+
+<!SLIDE bullets incremental smaller transition=uncover>
+
+# Kernel reductions #
+
+* many-one reduction: \\(f((x, y)) = (x', y')\\)
+* access to both \\(x\\) and \\(y\\)
+* kernel reduction: \\(f(x) = x'\\), so \\( (f(x), f(y)) = (x', y')\\)
+* access to one at a time
+* kernel reduction induces a many-one reduction
+  1. \\( (x,y)\mapsto (f(x), f(y))\\)
