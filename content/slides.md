@@ -1,11 +1,3 @@
-<!SLIDE title-slide>
-
-# On polynomial time kernel reductions among equivalence relations #
-
-Jeffrey Finkelstein
-
-Ben Hescott
-
 <!SLIDE bullets incremental small transition=uncover>
 
 # Polynomial time whats are in the what now? #
