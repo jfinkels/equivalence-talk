@@ -8,6 +8,8 @@ https://github.com/jfinkels/equivalence.
 Copyright
 ---------
 
+Copyright 2011 Jeffrey Finkelstein
+
 Except where otherwise noted, both the Markdown markup and the content of the
 presentation are made available under the terms of the Creative Commons
 Attribution-ShareAlike 3.0 license,
