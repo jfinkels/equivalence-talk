@@ -21,26 +21,26 @@ install ShowOff.
 
 1. Install [Ruby][2] and [RubyGems][3]:
 
-    sudo apt-get install ruby rubygems
+        sudo apt-get install ruby rubygems
 
 2. Install the dependencies for ShowOff (including `libxml2-dev` and
    `libxslt-dev`, which are transitive dependencies of Nokogiri):
 
-    sudo apt-get install libxml2-dev libxslt-dev
-    sudo gem install sinatra bluecloth nokogiri json gli parslet
+        sudo apt-get install libxml2-dev libxslt-dev
+        sudo gem install sinatra bluecloth nokogiri json gli parslet
 
 3. Clone my version of ShowOff which supports [MathJax][4]:
 
-    git clone git://github.com/jfinkels/showoff.git
-    cd showoff/
+        git clone git://github.com/jfinkels/showoff.git
+        cd showoff/
 
 4. Build the gem for this modified version of ShowOff:
 
-    gem build showoff.gemspec
+        gem build showoff.gemspec
 
 5. Install this gem:
 
-    sudo gem install showoff-0.5.1
+        sudo gem install showoff-0.5.1
 
 [1]: https://github.com/schacon/showoff
 [2]: http://ruby-lang.org
