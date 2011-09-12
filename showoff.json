@@ -3,7 +3,10 @@
   "description": "Slideshow presentation on polynomial time kernel reductions among equivalence relations.",
   "sections": [
     { "section" : "intro" },
-    { "section" : "content" },
+    { "section" : "exposition" },
+    { "section" : "vsmanyone" },
+    { "section" : "generalcompleteness" },
+    { "section" : "npeqcompleteness" },
     { "section" : "outro" }
   ]
 }

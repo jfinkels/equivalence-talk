@@ -1,83 +1,6 @@
-<!SLIDE bullets incremental small transition=uncover>
+<!SLIDE subsection transition=uncover>
 
-# Polynomial time whats are in the what now? #
-.notes Here's some motivation...
-
-* the graph isomorphism problem: are the two graphs \\(G\\) and \\(H\\) isomorphic?
-* one of the few possible candidates for \\(\mathsf{NP}\backslash\mathsf{P}\\)
-* what other isomorphism or equivalence problems in \\(\mathsf{NP}\\) reduce to the graph isomorphism problem?
-* more importantly, *how* do they reduce to it? $$\langle X, Y\; \rangle \mapsto \langle G, H\, \rangle $$
-
-<!SLIDE bullets incremental small transition=uncover>
-
-# A more natural notion of reduction for problems of equivalence #
-
-* instead map each structure \\(X\\) to a graph \\(G\\) (which depends on \\(X\\)) by some polynomial time computable function \\(f\\)
-* this is how most reductions from equivalence problems to graph isomorphism work anyway!
-* this is a polynomial time *kernel reduction*
-
-<!SLIDE bullets incremental smaller transition=uncover>
-
-# Reminder of definitions... #
-
-* An *equivalence relation* \\(R\\) is a set of pairs of strings satisfying:
-1. *reflexivity*: for all strings \\(x\\),  
-\\((x, x)\in R\\)
-2. *symmetry*: for all strings \\(x\\) and \\(y\\),  
-\\((x,y)\in R\implies (y, x)\in R\\)
-3. *transitivity*: for all strings \\(x\\), \\(y\\), and \\(z\\),  
-\\((x,y)\in R\\) and \\((y,z)\in R \implies (x,z)\in R\\)
-* generalization of the idea of equality
-
-<!SLIDE bullets incremental smaller transition=uncover>
-
-# Equivalence relations and computation #
-
-* \\(\mathsf{NPEq}\\): equivalence relations in \\(\mathsf{NP}\\)
-* contains graph isomorphism
-* can construct various others from common problems in \\(\mathsf{NP}\\):
-* \\(\\{((G, k), (H, k)) | G\\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\) both have a clique of size \\(k\\}\\)
-* what do we know about the clique problem? (we'll return to this)
-
-<!SLIDE bullets incremental smaller transition=uncover>
-
-# Kernel reductions #
-
-* many-one reduction: \\(f((x, y)) = (x', y')\\)
-* access to both \\(x\\) and \\(y\\)
-* kernel reduction: \\(f(x) = x'\\), so \\( (f(x), f(y)) = (x', y')\\)
-* access to one at a time
-* kernel reduction induces a many-one reduction
-  1. \\( (x,y)\mapsto (f(x), f(y))\\)
-
-<!SLIDE bullets incremental small transition=uncover>
-
-# Kernel reductions #
-
-* \\(R \leq\_{ker} ^ {P} S \\) if there exists a \\(f\in\mathsf{FP}\colon\\)
-  1. \\( (x,y)\in R\\) if and only if \\( (f(x), f(y))\in S \\)
-
-<!SLIDE bullets incremental small transition=uncover>
-
-# Basic facts about kernel reductions #
-
-* kernel reductions preserve equivalence classes:
-  1. *\\( R\leq\_{ker} ^ P S \implies f([w]_R) \subseteq [f(w)]\_S \\)*
-* number of equivalence classes is important:
-  1. *if \\(R\\) has more eq. classes than \\(S\\) then \\(R \nleq\_{ker} S \\)*
-
-<!SLIDE bullets incremental smaller transition=uncover>
-
-# Polynomial time kernel vs. many-one reductions in \\(\mathsf{P}\\) #
-
-* consider \\(R\_n=\\{(x,y)|x\equiv y\pmod{n}\\}\\)
-* \\( R\_3 \leq\_m ^ P R\_2 \\) : if \\( x\equiv y\pmod{3} \\) output
-  \\( (0, 0) \\) else output \\( (0, 1) \\)
-* \\( R\_3 \nleq\_{ker} ^ P R\_2 \\)
-
-<!SLIDE transition=uncover>
-
-# What about in \\(\mathsf{NP}\\)? #
+# Completeness #
 
 <!SLIDE bullets incremental transition=uncover>
 
@@ -124,7 +47,7 @@
 # Building a complete problem #
 
 * Canonical many-one complete problem
-  * \\(\\{(M, x, 1 ^ t) | M \\) accepts \\( x \\) within \\( t \\) steps \\( \\} \\)
+  1. \\(\\{(M, x, 1 ^ t) | M \\) accepts \\( x \\) within \\( t \\) steps \\( \\} \\)
 * How can we turn this into an equivalence relation?
 
 <!SLIDE bullets incremental>
@@ -135,8 +58,9 @@
 
 <!SLIDE bullets incremental>
 
-* \\(\\{(u,v)|u=v\\} \cup \\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M \\) accepts
-  \\((x, y) \\) within \\( t \\) steps \\( \\} \\)
+* \\(\\{(u,v)|u=v\\}\\)
+  1. \\(\cup \\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M \\) accepts
+  2. \\((x, y) \\) within \\( t \\) steps \\( \\} \\)
 * Not symmetric or transitive
 * Especially not for arbitrary machines!
 
@@ -182,7 +106,7 @@
 * simulate \\(M\\) on pairs of inputs as required above
 * if any of the rules is violated, reject, else accept
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental small transition=uncover>
 
 # The complete problem #
 
