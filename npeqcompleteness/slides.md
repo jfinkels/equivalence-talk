@@ -24,7 +24,7 @@
 
 # 1-1 completeness #
 
-* \\(\\{((G, k), (H, k)) |\\)
+* \\(B=\\{((G, k), (H, k)) |\\)
   * \\(G\\) is isomorphic to \\(H\\) or
   * (\\(G\\) and \\(H\\) both have a clique of size \\(k\\)
   * and \\(|V(G)|=|V(H)|) \\}\\)
@@ -44,4 +44,14 @@
 
 <!SLIDE bullets incremental transition=uncover>
 
-# Sizes of equivalence classes #
+* in \\(B\\), given a graph \\(G\\) and a natural number \\(k\\), consider \\([(G, k)]\\)
+* finite number of isomorphic graphs
+* finite number of graphs \\( H \\) such that \\(|V(G)|=|V(H)|\\)
+* and even fewer which both have a clique of size \\( k \\)
+* so \\([(G, k)]\\) is finite
+
+<!SLIDE bullets incremental transition=uncover>
+
+* if \\(B\\) were \\(\mathsf{NPEq}-complete\\), then \\( R\leq\_{ker} ^ P B \\)
+* \\( [w]\_R \\) infinite, \\( [(G, k)]\_B \\) finite
+* pigeonhole principle implies reduction not injective
