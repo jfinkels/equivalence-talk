@@ -15,6 +15,20 @@ presentation are made available under the terms of the Creative Commons
 Attribution-ShareAlike 3.0 license,
 http://creativecommons.org/licenses/by-sa/3.0/.
 
+MathJax is copyright 2009-2010 Design Science Inc., and is distributed
+under the terms of the Apache License version 2.0. For more
+information, see the file `mathjax/LICENSE`.
+
+Getting this presentation
+-------------------------
+
+To get a copy of this presentation, clone it using Git
+
+    git clone git://github.com/jfinkels/equivalence-talk
+
+or browse and download it from its GitHub page at
+https://github.com/jfinkels/equivalence-talk.
+
 Installing ShowOff
 ------------------
 
@@ -31,9 +45,9 @@ install ShowOff.
         sudo apt-get install libxml2-dev libxslt-dev
         sudo gem install sinatra bluecloth nokogiri json gli parslet
 
-3. Clone my version of ShowOff which supports [MathJax][4]:
+3. Clone ShowOff:
 
-        git clone git://github.com/jfinkels/showoff.git
+        git clone git://github.com/schacon/showoff.git
         cd showoff/
 
 4. Build the gem for this modified version of ShowOff:
@@ -42,12 +56,11 @@ install ShowOff.
 
 5. Install this gem:
 
-        sudo gem install showoff-0.5.1
+        sudo gem install showoff-0.5.1.gem
 
 [1]: https://github.com/schacon/showoff
 [2]: http://ruby-lang.org
 [3]: http://rubygems.org
-[4]: http://mathjax.org
 
 Starting the presentation
 -------------------------
