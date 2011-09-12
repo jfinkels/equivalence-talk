@@ -48,20 +48,20 @@
 * kernel reduction: \\(f(x) = x'\\), so \\( (f(x), f(y)) = (x', y')\\)
 * access to one at a time
 * kernel reduction induces a many-one reduction
-  1. \\( (x,y)\mapsto (f(x), f(y))\\)
+  * \\( (x,y)\mapsto (f(x), f(y))\\)
 
 <!SLIDE bullets incremental small transition=uncover>
 
 # Kernel reductions #
 
 * \\(R \leq\_{ker} ^ {P} S \\) if there exists a \\(f\in\mathsf{FP}\colon\\)
-  1. \\( (x,y)\in R\\) if and only if \\( (f(x), f(y))\in S \\)
+  * \\( (x,y)\in R\\) if and only if \\( (f(x), f(y))\in S \\)
 
 <!SLIDE bullets incremental small transition=uncover>
 
 # Basic facts about kernel reductions #
 
 * kernel reductions preserve equivalence classes:
-  1. *\\( R\leq\_{ker} ^ P S \implies f([w]_R) \subseteq [f(w)]\_S \\)*
+  * *\\( R\leq\_{ker} ^ P S \implies f([w]_R) \subseteq [f(w)]\_S \\)*
 * number of equivalence classes is important:
-  1. *if \\(R\\) has more eq. classes than \\(S\\) then \\(R \nleq\_{ker} S \\)*
+  * *if \\(R\\) has more eq. classes than \\(S\\) then \\(R \nleq\_{ker} S \\)*

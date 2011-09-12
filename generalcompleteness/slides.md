@@ -47,7 +47,7 @@
 # Building a complete problem #
 
 * Canonical many-one complete problem
-  1. \\(\\{(M, x, 1 ^ t) | M \\) accepts \\( x \\) within \\( t \\) steps \\( \\} \\)
+  * \\(\\{(M, x, 1 ^ t) | M \\) accepts \\( x \\) within \\( t \\) steps \\( \\} \\)
 * How can we turn this into an equivalence relation?
 
 <!SLIDE bullets incremental>
@@ -59,8 +59,8 @@
 <!SLIDE bullets incremental>
 
 * \\(\\{(u,v)|u=v\\}\\)
-  1. \\(\cup \\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M \\) accepts
-  2. \\((x, y) \\) within \\( t \\) steps \\( \\} \\)
+  * \\(\cup \\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M \\) accepts
+  * \\((x, y) \\) within \\( t \\) steps \\( \\} \\)
 * Not symmetric or transitive
 * Especially not for arbitrary machines!
 
