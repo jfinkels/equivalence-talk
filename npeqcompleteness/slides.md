@@ -40,16 +40,8 @@
 * infinite number of equivalence classes
   * \\([\lambda], [1], [11], \ldots\\)
 * infinite number of elements in each equivalence class
-  * \\( [w], [0w], [00w], \ldots  \\)
+  * \\( w, 0w, 00w, \ldots  \\)
 
 <!SLIDE bullets incremental transition=uncover>
 
 # Sizes of equivalence classes #
-
-* consider \\(R = \\{(x,y)|x\\) and \\(y\\) have the same number of
-  \\(1\\)s\\(\\}\\)
-* infinite number of equivalence classes
-  * \\( [\lambda], [1], [11], \ldots \\)
-* infinite number of elements in each equivalence class
-  * \\( [w], [0w], [00w], \ldots  \\)
-
