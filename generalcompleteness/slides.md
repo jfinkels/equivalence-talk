@@ -73,7 +73,7 @@
   * \\( M \\) is a polynomially clocked \\(\mathcal{C}\\) machine
   * \\( M \\) accepts \\( (x, y) \\)
   * \\( A \\) accepts \\( (M, |x|) \\) within \\(t\_x\\) steps
-  * \\( A \\) accepts \\( (M, |y|) \\) within \\(t\_y\\) steps
+  * \\( A \\) accepts \\( (M, |y|) \\) within \\(t\_y\\) steps\\}
 * want \\( A \\) in \\( \mathcal{C} \\)
 
 <!SLIDE bullets incremental transition=uncover>
