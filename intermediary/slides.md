@@ -44,3 +44,19 @@
   * \\( R\leq\_{m} ^ P (R\_1 \overset{ker}{\oplus} R\_2) \\)
 * set \\( R\_1 = \mathsf{NPEq}\\)-complete problem, \\( R\_2 = \emptyset,
   \mathcal{C}\_1 = \mathsf{NPEqC}, \mathcal{C}\_2 = \mathsf{PEq} \\)
+
+<!SLIDE bullets incremental transition=uncover>
+
+# Proof idea (original version) #
+
+* enumerate languages \\( A\_1, A\_2, \ldots \\) and \\( B\_1, B\_2, \ldots \\)
+* find strings which witness \\( A\_i\neq L\_1 \\) and \\( B\_i\neq L\_2 \\)
+  for each \\( i \\)
+
+<!SLIDE bullets>
+
+# Proof idea (eq. rel. version) #
+
+* enumerate eq. rels. \\( S\_1, S\_2, \ldots \\) and \\( T\_1, T\_2, \ldots \\)
+* find a *pair* of strings which witness \\( S\_i\neq R\_1 \\) and \\( T\_i\neq
+  R\_2 \\) for each \\( i \\)
