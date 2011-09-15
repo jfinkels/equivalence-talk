@@ -40,7 +40,6 @@
 
 * \\(\mathsf{(\Sigma\_kP\cap\Pi\_kP)Eq}\\), for all \\(k\geq 1\\)
 * \\(\mathsf{PSPACEEq}\\)
-* \\(\mathsf{PHEq}\\)
 
 <!SLIDE bullets incremental small transition=uncover>
 
