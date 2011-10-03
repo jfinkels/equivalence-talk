@@ -1,7 +1,3 @@
-<!SLIDE subsection transition=uncover>
-
-# Completeness #
-
 <!SLIDE bullets incremental transition=uncover>
 
 # Completeness #
@@ -27,19 +23,19 @@
 
 # Sort of... #
 
-* Using technique of Buss et al., we can provide a complete problem for a class
-  \\(\mathcal{C}\mathsf{Eq}\\) as long as the class \\(\mathcal{C}\\)...
-* is a subset of \\(\mathsf{PSPACE}\\)
-* is closed under complement
-* is closed under universal quantification
-* contains the problem of deciding whether two strings are equal
+* Using technique of Buss et al.
+* suppose \\(\mathcal{C}\subseteq\mathsf{PSPACE}\\)
+* construct a \\(\leq\_{ker} ^ P\\)-hard problem for
+  \\(\mathcal{C}\mathsf{Eq}\\)
+* that problem is in \\(\forall(\mathcal{C}\cup\mathsf{co}\mathcal{C})\\)
 
 <!SLIDE bullets incremental transition=uncover>
 
-# Classes with complete problems #
-
-* \\(\mathsf{(\Sigma\_kP\cap\Pi\_kP)Eq}\\), for all \\(k\geq 1\\)
-* \\(\mathsf{PSPACEEq}\\)
+* \\(\mathsf{PSPACEEq}\\) has a complete problem under \\(\leq\_{ker} ^ P\\)
+  reductions
+* \\(\mathsf{\Pi\_{k+1}PEq}\\) has a problem hard for
+  \\(\mathsf{\Sigma\_kPEq}\\) and \\(\mathsf{\Pi\_kPEq}\\) under \\(\leq\_{ker}
+  ^ P\\) reductions
 
 <!SLIDE bullets incremental small transition=uncover>
 
@@ -58,8 +54,8 @@
 <!SLIDE bullets incremental>
 
 * \\(\\{(u,v)|u=v\\}\\)
-  * \\(\cup \\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M \\) accepts
-  * \\((x, y) \\) within \\( t \\) steps \\( \\} \\)
+* \\(\cup \\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M \\) accepts  
+  \\((x, y) \\) within \\( t \\) steps \\( \\} \\)
 * Not symmetric or transitive
 * Especially not for arbitrary machines!
 
@@ -73,7 +69,6 @@
   * \\( M \\) accepts \\( (x, y) \\)
   * \\( A \\) accepts \\( (M, |x|) \\) within \\(t\_x\\) steps
   * \\( A \\) accepts \\( (M, |y|) \\) within \\(t\_y\\) steps\\( \\} \\)
-* want \\( A \\) in \\( \mathcal{C} \\)
 
 <!SLIDE bullets incremental transition=uncover>
 
@@ -107,14 +102,14 @@
 
 <!SLIDE bullets incremental small transition=uncover>
 
-# The complete problem #
+# The \\(\leq_{ker} ^ P\\)-hard problem #
 
 * \\(\\{(u,v)|u=v\\} \cup \\{((M, x, 1 ^ {t\_x}), (M, y, 1 ^ {t\_y})) |\\)
   * \\( M \\) is a polynomially clocked \\(\mathcal{C}\\) machine
   * \\( M \\) accepts \\( (x, y) \\)
   * \\( A \\) accepts \\( (M, |x|) \\) within \\(t\_x\\) steps
   * \\( A \\) accepts \\( (M, |y|) \\) within \\(t\_y\\) steps
-* Not tricky
+* No other tricks
 
 <!SLIDE bullets incremental transition=uncover>
 
