@@ -1,10 +1,7 @@
-<!SLIDE subsection>
-
-# \\( \mathsf{NPEq} \\) intermediary problems #
-
 <!SLIDE bullets incremental>
 
 # Ladner's theorem #
+.notes \\( \mathsf{NPEq} \\) intermediary problems #
 
 * \\( \mathsf{P}\neq\mathsf{NP} \\)
 * \\( \implies \exists L\in\mathsf{NP}\colon L\notin \mathsf{P} \land

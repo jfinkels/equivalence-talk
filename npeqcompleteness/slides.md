@@ -1,8 +1,6 @@
-<!SLIDE subsection>
+<!SLIDE bullets incremental>
 
 # Consequences of completeness in \\( \mathsf{NPEq} \\) #
-
-<!SLIDE bullets incremental>
 
 * \\(\\{((G, k), (H, k)) | G\\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\)
   both have a clique of size \\(k\\}\\)
