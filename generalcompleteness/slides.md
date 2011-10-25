@@ -1,4 +1,4 @@
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 # Completeness #
 
@@ -14,12 +14,12 @@
 [1]: www.cs.uchicago.edu/~fortnow/papers/equiv.pdf
 [2]: http://www.crm.es/Publications/11/Pr1009.pdf
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 * Can we eliminate the assumption?
 * Can we generalize the result?
 
-<!SLIDE bullets incremental small transition=uncover>
+<!SLIDE bullets incremental small>
 
 # Sort of... #
 
@@ -29,7 +29,7 @@
   \\(\mathcal{C}\mathsf{Eq}\\)
 * that problem is in \\(\forall(\mathcal{C}\cup\mathsf{co}\mathcal{C})\\)
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 * \\(\mathsf{PSPACEEq}\\) has a complete problem under \\(\leq\_{ker} ^ P\\)
   reductions
@@ -37,7 +37,7 @@
   \\(\mathsf{\Sigma\_kPEq}\\) and \\(\mathsf{\Pi\_kPEq}\\) under \\(\leq\_{ker}
   ^ P\\) reductions
 
-<!SLIDE bullets incremental small transition=uncover>
+<!SLIDE bullets incremental small>
 
 # Building a complete problem #
 
@@ -70,7 +70,7 @@
   * \\( A \\) accepts \\( (M, |x|) \\) within \\(t\_x\\) steps
   * \\( A \\) accepts \\( (M, |y|) \\) within \\(t\_y\\) steps\\( \\} \\)
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 ## What is such an algorithm? ##
 
@@ -92,7 +92,7 @@
 * for all \\(x,y,z\in\Sigma ^ {\leq n}\\), \\(M \\) rejects \\((x,y)\\) or
   \\(M\\) rejects \\((y,z)\\) or \\(M \\) accepts \\((x, z)\\)
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 # The algorithm \\( A \\) #
 
@@ -100,7 +100,7 @@
 * simulate \\(M\\) on pairs of inputs as required above
 * if any of the rules is violated, reject, else accept
 
-<!SLIDE bullets incremental small transition=uncover>
+<!SLIDE bullets incremental small>
 
 # The \\(\leq_{ker} ^ P\\)-hard problem #
 
@@ -111,7 +111,7 @@
   * \\( A \\) accepts \\( (M, |y|) \\) within \\(t\_y\\) steps
 * No other tricks
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 * Does \\(\mathsf{NPEq}\\) have a complete problem?
 * Does \\(\mathsf{PEq}\\) have a complete problem?

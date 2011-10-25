@@ -2,7 +2,7 @@
 
 # \\( \mathsf{NPEq} \\) intermediary problems #
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 # Ladner's theorem #
 
@@ -11,13 +11,13 @@
   L\notin\mathsf{NPC} \\)
 * does it extend to \\( \mathsf{PEq} \\) and \\( \mathsf{NPEq} \\)?
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 # Sort of... #
 
 * if there are \\( \mathsf{NPEq} \\) complete problems
 
-<!SLIDE bullets incremental small transition=uncover>
+<!SLIDE bullets incremental small>
 
 # Uniform diagonalization theorem (regular version) #
 
@@ -45,7 +45,7 @@
 * set \\( R\_1 = \mathsf{NPEq}\\)-complete problem, \\( R\_2 = \emptyset,
   \mathcal{C}\_1 = \mathsf{NPEqC}, \mathcal{C}\_2 = \mathsf{PEq} \\)
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 # Proof idea (original version) #
 

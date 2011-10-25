@@ -1,4 +1,4 @@
-<!SLIDE bullets incremental smaller transition=uncover>
+<!SLIDE bullets incremental smaller>
 
 # Polynomial time kernel vs. many-one reductions in \\(\mathsf{P}\\) #
 
@@ -7,6 +7,6 @@
   \\( (0, 0) \\) else output \\( (0, 1) \\)
 * \\( R\_3 \nleq\_{ker} ^ P R\_2 \\)
 
-<!SLIDE transition=uncover>
+<!SLIDE>
 
 # What about in \\(\mathsf{NP}\\)? #
