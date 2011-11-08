@@ -1,4 +1,4 @@
-<!SLIDE bullets incremental small transition=uncover>
+<!SLIDE bullets incremental small>
 
 # Polynomial time whats are in the what now? #
 .notes Here's some motivation...
@@ -8,7 +8,7 @@
 * what other isomorphism or equivalence problems in \\(\mathsf{NP}\\) reduce to the graph isomorphism problem?
 * more importantly, *how* do they reduce to it? $$\langle X, Y\; \rangle \mapsto \langle G, H\, \rangle $$
 
-<!SLIDE bullets incremental small transition=uncover>
+<!SLIDE bullets incremental small>
 
 # A more natural notion of reduction for problems of equivalence #
 
@@ -16,7 +16,7 @@
 * this is how most reductions from equivalence problems to graph isomorphism work anyway!
 * this is a polynomial time *kernel reduction*
 
-<!SLIDE bullets incremental smaller transition=uncover>
+<!SLIDE bullets incremental smaller>
 
 # Reminder of definitions... #
 
@@ -29,7 +29,7 @@
 \\((x,y)\in R\\) and \\((y,z)\in R \implies (x,z)\in R\\)
 * generalization of the idea of equality
 
-<!SLIDE bullets incremental smaller transition=uncover>
+<!SLIDE bullets incremental smaller>
 
 # Equivalence relations and computation #
 
@@ -39,7 +39,7 @@
 * \\(\\{((G, k), (H, k)) | G\\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\) both have a clique of size \\(k\\}\\)
 * what do we know about the clique problem? (we'll return to this)
 
-<!SLIDE bullets incremental smaller transition=uncover>
+<!SLIDE bullets incremental smaller>
 
 # Kernel reductions #
 
@@ -50,14 +50,14 @@
 * kernel reduction induces a many-one reduction
   * \\( (x,y)\mapsto (f(x), f(y))\\)
 
-<!SLIDE bullets incremental small transition=uncover>
+<!SLIDE bullets incremental small>
 
 # Kernel reductions #
 
 * \\(R \leq\_{ker} ^ {P} S \\) if there exists a \\(f\in\mathsf{FP}\colon\\)
   * \\( (x,y)\in R\\) if and only if \\( (f(x), f(y))\in S \\)
 
-<!SLIDE bullets incremental small transition=uncover>
+<!SLIDE bullets incremental small>
 
 # Basic facts about kernel reductions #
 

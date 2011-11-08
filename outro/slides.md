@@ -1,4 +1,4 @@
-<!SLIDE transition=uncover>
+<!SLIDE>
 
 # Questions? #
 

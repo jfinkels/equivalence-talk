@@ -1,8 +1,6 @@
-<!SLIDE subsection>
+<!SLIDE bullets incremental>
 
 # Consequences of completeness in \\( \mathsf{NPEq} \\) #
-
-<!SLIDE bullets incremental transition=uncover>
 
 * \\(\\{((G, k), (H, k)) | G\\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\)
   both have a clique of size \\(k\\}\\)
@@ -10,7 +8,7 @@
 * \\( \mathsf{NP} \\)-complete (from \\(\mathsf{CLIQUE}\\)):
 * \\((G, k) \mapsto ((G,k), (K\_k, k))\\)
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 # \\(\mathsf{NPEq}\\)-completeness implies \\(\mathsf{NP}\\)-completeness #
 
@@ -20,7 +18,7 @@
   \\(\mathsf{NP}\\)-complete
   * \\(\mathsf{PH}=\mathsf{\Sigma\_2P\cap\Pi\_2P}\\)
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 # 1-1 completeness #
 
@@ -31,7 +29,7 @@
 * restriction of previous problem
 * \\(\mathsf{NP}\\)-complete by reduction which enforces \\(|V(G)|=|V(H)|\\)
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 # Sizes of equivalence classes #
 
@@ -42,7 +40,7 @@
 * infinite number of elements in each equivalence class
   * \\( w, 0w, 00w, \ldots  \\)
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 * in \\(B\\), given a graph \\(G\\) and a natural number \\(k\\), consider \\([(G, k)]\\)
 * finite number of isomorphic graphs
@@ -50,7 +48,7 @@
 * and even fewer which both have a clique of size \\( k \\)
 * so \\([(G, k)]\\) is finite
 
-<!SLIDE bullets incremental transition=uncover>
+<!SLIDE bullets incremental>
 
 * if \\(B\\) were \\(\mathsf{NPEq}-complete\\), then \\( R\leq\_{ker} ^ P B \\)
 * \\( [w]\_R \\) infinite, \\( [(G, k)]\_B \\) finite

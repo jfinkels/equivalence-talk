@@ -17,7 +17,7 @@ http://creativecommons.org/licenses/by-sa/3.0/.
 
 MathJax is copyright 2009-2010 Design Science Inc., and is distributed
 under the terms of the Apache License version 2.0. For more
-information, see the file `mathjax/LICENSE`.
+information, see the file `MathJax/LICENSE`.
 
 Getting this presentation
 -------------------------
@@ -56,7 +56,9 @@ install ShowOff.
 
 5. Install this gem:
 
-        sudo gem install showoff-0.5.1.gem
+        sudo gem install showoff-X.Y.Z.gem
+
+   where `X.Y.Z` is the version number of ShowOff.
 
 [1]: https://github.com/schacon/showoff
 [2]: http://ruby-lang.org
@@ -70,7 +72,9 @@ After installing ShowOff, run the command
     showoff serve
 
 from this directory. Navigate to http://localhost:9090 in a web browser to
-begin the presentation.
+begin the presentation. Navigate to http://localhost:9090/presenter in a web
+browser to begin the presentation in two windows, one in presentation mode and
+one in presenter mode.
 
 Contact
 -------
