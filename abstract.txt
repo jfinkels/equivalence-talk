@@ -1,0 +1,25 @@
+# Polynomial time kernel reductions among equivalence problems #
+
+Jeffrey Finkelstein and Ben Hescott
+
+In this talk, we consider complexity considerations for a recently introduced
+type of reduction which applies solely to problems of equivalence or
+isomorphism: the "kernel reduction". Specifically, we examine reductions among
+languages in the complexity class consisting of all languages induced by
+equivalence relations for which membership can be decided by a
+non-deterministic polynomial time Turing machine. This class is called "NPEq";
+the definitions for PEq and coNPEq are analagous. The obvious questions which
+drive this work are "What is the power of polynomial time kernel reductions in
+NPEq?", and "Are there problems which are complete for NPEq under polynomial
+time kernel reductions?".
+
+We prove a general theorem which provides a problem which is hard under
+polynomial time kernel reductions for several classes of equivalence relations,
+including (Sigma_k)PEq and PSPACEEq. In fact, such a problem seems to be
+complete for PSPACEEq under polynomial time kernel reductions. We also show
+that if there is a complete problem under kernel reductions in NPEq, then that
+problem is also complete under many-one reductions in NP. Finally we use a
+proof of Ladner's theorem to show that if PEq does not equal NPEq and there are
+problems in NPEq which are complete under polynomial time kernel reductions
+then there are NPEq-intermediary problems---problems which are in NPEq, but not
+complete under kernel reductions and not in PEq.
