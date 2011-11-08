@@ -2,7 +2,7 @@
 
 # Consequences of completeness in \\( \mathsf{NPEq} \\) #
 
-* \\(\\{((G, k), (H, k)) | G\\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\)
+* \\(\\{((G, k), (H, k)) | G\,\\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\)
   both have a clique of size \\(k\\}\\)
 * \\( \mathsf{NPEq} \\) (equivalence relation in \\(\mathsf{NP}\\))
 * \\( \mathsf{NP} \\)-complete (from \\(\mathsf{CLIQUE}\\)):
@@ -21,6 +21,7 @@
 <!SLIDE bullets incremental>
 
 # 1-1 completeness #
+.notes Make a point about the size of equivalence classes of this problem...
 
 * \\(B=\\{((G, k), (H, k)) |\\)
   * \\(G\\) is isomorphic to \\(H\\) or
@@ -33,7 +34,7 @@
 
 # Sizes of equivalence classes #
 
-* consider \\(R = \\{(x,y)|x\\) and \\(y\\) have the same number of
+* consider \\(R = \\{(x,y)|x\,\\) and \\(y\\) have the same number of
   \\(1\\)s\\(\\}\\)
 * infinite number of equivalence classes
   * \\([\lambda], [1], [11], \ldots\\)
@@ -45,7 +46,7 @@
 * in \\(B\\), given a graph \\(G\\) and a natural number \\(k\\), consider \\([(G, k)]\\)
 * finite number of isomorphic graphs
 * finite number of graphs \\( H \\) such that \\(|V(G)|=|V(H)|\\)
-* and even fewer which both have a clique of size \\( k \\)
+* and even fewer with a clique of size \\( k \\)
 * so \\([(G, k)]\\) is finite
 
 <!SLIDE bullets incremental>

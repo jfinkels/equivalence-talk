@@ -1,6 +1,6 @@
 <!SLIDE bullets incremental small>
 
-# Polynomial time whats are in the what now? #
+# Polynomial time whats among whats? #
 .notes Here's some motivation...
 
 * the graph isomorphism problem: are the two graphs \\(G\\) and \\(H\\) isomorphic?
@@ -11,6 +11,8 @@
 <!SLIDE bullets incremental small>
 
 # A more natural notion of reduction for problems of equivalence #
+.notes Equivalent to GI: isomorphism for directed graphs, color graphs,
+multigraphs, hypergraphs, etc.
 
 * instead map each structure \\(X\\) to a graph \\(G\\) (which depends on \\(X\\)) by some polynomial time computable function \\(f\\)
 * this is how most reductions from equivalence problems to graph isomorphism work anyway!
@@ -19,6 +21,7 @@
 <!SLIDE bullets incremental smaller>
 
 # Reminder of definitions... #
+.notes Equality is the equivalence relation in which only identical objects are equivalent
 
 * An *equivalence relation* \\(R\\) is a set of pairs of strings satisfying:
 1. *reflexivity*: for all strings \\(x\\),  
@@ -32,6 +35,7 @@
 <!SLIDE bullets incremental smaller>
 
 # Equivalence relations and computation #
+.notes How can we classify equivalence relations in terms of the computational resources they require for deciding membership?
 
 * \\(\mathsf{NPEq}\\): equivalence relations in \\(\mathsf{NP}\\)
 * contains graph isomorphism
@@ -54,8 +58,8 @@
 
 # Kernel reductions #
 
-* \\(R \leq\_{ker} ^ {P} S \\) if there exists a \\(f\in\mathsf{FP}\colon\\)
-  * \\( (x,y)\in R\\) if and only if \\( (f(x), f(y))\in S \\)
+* \\(R \leq\_{ker} ^ {P} S \\) if there exists a \\(f\in\mathsf{FP}\\) such that
+* \\( (x,y)\in R\,\\) if and only if \\( (f(x), f(y))\in S \\)
 
 <!SLIDE bullets incremental small>
 

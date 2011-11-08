@@ -1,6 +1,6 @@
 <!SLIDE title-slide>
 
-# On polynomial time kernel reductions #
+# Polynomial time kernel reductions among equivalence relations #
 
 Jeffrey Finkelstein
 

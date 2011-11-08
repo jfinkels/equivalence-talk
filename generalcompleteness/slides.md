@@ -11,7 +11,7 @@
     problem.
 * Ouch!
 
-[1]: www.cs.uchicago.edu/~fortnow/papers/equiv.pdf
+[1]: http://www.cs.uchicago.edu/~fortnow/papers/equiv.pdf
 [2]: http://www.crm.es/Publications/11/Pr1009.pdf
 
 <!SLIDE bullets incremental>
@@ -42,7 +42,7 @@
 # Building a complete problem #
 
 * Canonical many-one complete problem
-  * \\(\\{(M, x, 1 ^ t) | M \\) accepts \\( x \\) within \\( t \\) steps \\( \\} \\)
+  * \\(\\{(M, x, 1 ^ t) | M \,\\) accepts \\( x \\) within \\( t \\) steps \\( \\} \\)
 * How can we turn this into an equivalence relation?
 
 <!SLIDE bullets incremental>
@@ -54,8 +54,8 @@
 <!SLIDE bullets incremental>
 
 * \\(\\{(u,v)|u=v\\}\\)
-* \\(\cup \\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M \\) accepts  
-  \\((x, y) \\) within \\( t \\) steps \\( \\} \\)
+* \\(\cup \\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M\, \\) accepts  
+  \\((x, y)\, \\) within \\( t \\) steps \\( \\} \\)
 * Not symmetric or transitive
 * Especially not for arbitrary machines!
 
@@ -99,6 +99,7 @@
 * universally guess \\(x, y, z \in\Sigma ^ {\leq n}\\)
 * simulate \\(M\\) on pairs of inputs as required above
 * if any of the rules is violated, reject, else accept
+* polynomial in \\(n\\)
 
 <!SLIDE bullets incremental small>
 
@@ -108,10 +109,14 @@
   * \\( M \\) is a polynomially clocked \\(\mathcal{C}\\) machine
   * \\( M \\) accepts \\( (x, y) \\)
   * \\( A \\) accepts \\( (M, |x|) \\) within \\(t\_x\\) steps
-  * \\( A \\) accepts \\( (M, |y|) \\) within \\(t\_y\\) steps
+  * \\( A \\) accepts \\( (M, |y|) \\) within \\(t\_y\\) steps\\(\\}\\)
 * No other tricks
 
 <!SLIDE bullets incremental>
 
 * Does \\(\mathsf{NPEq}\\) have a complete problem?
 * Does \\(\mathsf{PEq}\\) have a complete problem?
+  * - We have \\(\mathsf{coNPEq}\\) has a \\(\leq_{ker} ^ P\\)-hard problem for
+    \\(\mathsf{PEq}\\)
+  * - Buss et al. have \\(\mathsf{E}=\mathsf{NE}\\) implies a
+    \\(\mathsf{PEq}\\)-complete problem
