@@ -7,7 +7,7 @@
 # In no particular order #
 
 * - natural \\(\mathsf{PSPACEEq}\\)-complete problems? (Garey and Johnson lists
-  several \\(\mathsf{PSPACE}\\)-complete problems of inequivalence)
+  several \\(\mathsf{PSPACE}\\)-complete problems of equivalence)
 * - do complexity results for boolean formulae, boolean circuits, polynomials,
   other structures translate to the setting of kernel reductions?
 * - \\(\leq\_{ker}\\)-hard problems for lower complexity classes? higher?
