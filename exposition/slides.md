@@ -24,12 +24,9 @@ multigraphs, hypergraphs, etc.
 .notes Equality is the equivalence relation in which only identical objects are equivalent
 
 * An *equivalence relation* \\(R\\) is a set of pairs of strings satisfying:
-1. *reflexivity*: for all strings \\(x\\),  
-\\((x, x)\in R\\)
-2. *symmetry*: for all strings \\(x\\) and \\(y\\),  
-\\((x,y)\in R\implies (y, x)\in R\\)
-3. *transitivity*: for all strings \\(x\\), \\(y\\), and \\(z\\),  
-\\((x,y)\in R\\) and \\((y,z)\in R \implies (x,z)\in R\\)
+1. *reflexivity:* for all strings \\(x\\), \\((x, x)\in R\\)
+2. *symmetry:* for all strings \\(x\\) and \\(y\\), \\((x,y)\in R\implies (y, x)\in R\\)
+3. *transitivity:* for all strings \\(x\\), \\(y\\), and \\(z\\), \\((x,y)\in R\,\\) and \\((y,z)\in R \implies (x,z)\in R\\)
 * generalization of the idea of equality
 
 <!SLIDE bullets incremental smaller>
@@ -40,8 +37,9 @@ multigraphs, hypergraphs, etc.
 * \\(\mathsf{NPEq}\\): equivalence relations in \\(\mathsf{NP}\\)
 * contains graph isomorphism
 * can construct various others from common problems in \\(\mathsf{NP}\\):
-* \\(\\{((G, k), (H, k)) | G\\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\) both have a clique of size \\(k\\}\\)
-* what do we know about the clique problem? (we'll return to this)
+* \\(\\{((G, k), (H, k)) | G\, \\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\) both have a clique of size \\(k\\}\\)
+* what do we know about the clique problem?
+  * (we'll return to this)
 
 <!SLIDE bullets incremental smaller>
 
