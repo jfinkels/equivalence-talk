@@ -7,6 +7,9 @@
   * if \\( x\equiv y\pmod{3}\, \\) output \\( (0, 0)\, \\) else output \\( (0, 1) \\)
 * \\( R\_3 \nleq\_{ker} ^ P R\_2 \\)
 
-<!SLIDE>
+<!SLIDE bullets incremental>
 
 # What about in \\(\mathsf{NP}\\)? #
+
+* We don't know!
+* (we're open to suggestions)
