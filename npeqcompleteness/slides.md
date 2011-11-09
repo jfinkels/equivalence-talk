@@ -4,8 +4,8 @@
 
 * \\(\\{((G, k), (H, k)) | G\,\\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\)
   both have a clique of size \\(k\\}\\)
-* \\( \mathsf{NPEq} \\) (equivalence relation in \\(\mathsf{NP}\\))
-* \\( \mathsf{NP} \\)-complete (from \\(\mathsf{CLIQUE}\\)):
+* is in \\( \mathsf{NPEq} \\)
+* is \\( \mathsf{NP} \\)-complete (from \\(\mathsf{CLIQUE}\\)):
 * \\((G, k) \mapsto ((G,k), (K\_k, k))\\)
 
 <!SLIDE bullets incremental>

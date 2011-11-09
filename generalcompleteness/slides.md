@@ -47,19 +47,26 @@
 
 <!SLIDE bullets incremental>
 
-* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M \\) accepts \\( (x, y) \\) in \\(
+* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M\, \\) accepts \\( (x, y) \\) in \\(
   \leq t \\) steps \\( \\} \\)
 * Not reflexive
 
 <!SLIDE bullets incremental>
 
 * \\(\\{(u,v)|u=v\\}\\)
-* \\(\cup \\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M\, \\) accepts  
+* \\(\cup \\)
+* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M\: \\) accepts
   \\((x, y)\, \\) within \\( t \\) steps \\( \\} \\)
 * Not symmetric or transitive
 * Especially not for arbitrary machines!
 
+<!SLIDE>
+
+# need to enforce that \\(L(M)\\) is an equivalence relation #
+
 <!SLIDE bullets incremental small>
+
+# How? #
 
 * Suppose there is a machine, \\( A \\), which on input \\((M, n)\\) decides
   whether the pairs of strings which \\( M \\) accepts define an equivalence
@@ -99,7 +106,6 @@
 * universally guess \\(x, y, z \in\Sigma ^ {\leq n}\\)
 * simulate \\(M\\) on pairs of inputs as required above
 * if any of the rules is violated, reject, else accept
-* polynomial in \\(n\\)
 
 <!SLIDE bullets incremental small>
 
