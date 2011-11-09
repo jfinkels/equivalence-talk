@@ -3,9 +3,9 @@
 # Ladner's theorem #
 .notes \\( \mathsf{NPEq} \\) intermediary problems #
 
-* \\( \mathsf{P}\neq\mathsf{NP} \\)
-* \\( \implies \exists L\in\mathsf{NP}\colon L\notin \mathsf{P} \land
-  L\notin\mathsf{NPC} \\)
+* \\( \mathsf{P}\neq\mathsf{NP} \\) implies
+* \\(\exists L\in\mathsf{NP}\colon L\notin \mathsf{P} \land L\notin\mathsf{NPC}
+  \\)
 * does it extend to \\( \mathsf{PEq} \\) and \\( \mathsf{NPEq} \\)?
 
 <!SLIDE bullets incremental>
@@ -30,15 +30,15 @@
 
 <!SLIDE bullets small>
 
-# Uniform diagonalization theorem (eq. rel. version) #
+# With equivalence relations #
 
 * if \\( R\_1, R\_2 \\) decidable eq. rels., \\( \mathcal{C}\_1, \mathcal{C}\_2 \,\\) classes of decidable eq. rels., such that
   * \\( R\_1\notin\mathcal{C}\_1, R\_2\notin\mathcal{C}\_2 \\)
   * \\( \mathcal{C}\_1, \mathcal{C}\_2\, \\) are computably enumerable
   * \\( \mathcal{C}\_1, \mathcal{C}\_2\, \\) are closed under finite variations
 * then there exists a decidable eq. rel. \\( R \\) such that
-  * \\( R\notin\mathcal{C}\_1, R\notin\mathcal{C}\_2 \\), \\( R\leq\_{m} ^ P (R\_1 \overset{ker}{\oplus} R\_2) \\)
-* - set \\( R\_1 = \mathsf{NPEq}\\)-complete problem, \\( R\_2 = \emptyset,
+  * \\( R\notin\mathcal{C}\_1, R\notin\mathcal{C}\_2 \\), \\( R\leq\_{ker} ^ P (R\_1 \overset{ker}{\oplus} R\_2) \\)
+* set \\( R\_1 = \mathsf{NPEq}\\)-complete problem, \\( R\_2 = \emptyset,
   \mathcal{C}\_1 = \mathsf{NPEqC}, \mathcal{C}\_2 = \mathsf{PEq} \\)
 
 <!SLIDE bullets incremental>
