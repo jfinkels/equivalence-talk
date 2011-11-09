@@ -14,10 +14,10 @@
 [1]: http://www.cs.uchicago.edu/~fortnow/papers/equiv.pdf
 [2]: http://www.crm.es/Publications/11/Pr1009.pdf
 
-<!SLIDE bullets incremental>
+<!SLIDE>
 
-* Can we eliminate the assumption?
-* Can we generalize the result?
+# eliminate assumptions? #
+# generalize? #
 
 <!SLIDE bullets incremental small>
 
