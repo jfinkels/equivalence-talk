@@ -31,11 +31,11 @@
 
 <!SLIDE bullets incremental>
 
-* \\(\mathsf{PSPACEEq}\\) has a complete problem under \\(\leq\_{ker} ^ P\\)
-  reductions
-* \\(\mathsf{\Pi\_{k+1}PEq}\\) has a problem hard for
-  \\(\mathsf{\Sigma\_kPEq}\\) and \\(\mathsf{\Pi\_kPEq}\\) under \\(\leq\_{ker}
-  ^ P\\) reductions
+# Under \\(\leq\_{ker} ^ P\\) reductions... #
+* \\(\mathsf{PSPACEEq}\\) has a complete problem
+* \\(\mathsf{\Pi\_{k+1}PEq}\\) has a problem hard for \\(\mathsf{\Sigma\_kPEq}\\)
+* \\(\mathsf{\Pi\_{k+1}PEq}\\) has a problem hard for \\(\mathsf{\Pi\_kPEq}\\)
+* etc.
 
 <!SLIDE bullets incremental small>
 
@@ -47,7 +47,7 @@
 
 <!SLIDE bullets incremental>
 
-* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M\, \\) accepts \\( (x, y) \\) in \\(
+* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M\: \\) accepts \\( (x, y) \\) in \\(
   \leq t \\) steps \\( \\} \\)
 * Not reflexive
 
@@ -55,7 +55,7 @@
 
 * \\(\\{(u,v)|u=v\\}\\)
 * \\(\cup \\)
-* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M\: \\) accepts
+* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M\; \\) accepts
   \\((x, y)\, \\) within \\( t \\) steps \\( \\} \\)
 * Not symmetric or transitive
 * Especially not for arbitrary machines!
@@ -122,7 +122,7 @@
 
 * Does \\(\mathsf{NPEq}\\) have a complete problem?
 * Does \\(\mathsf{PEq}\\) have a complete problem?
-  * - We have \\(\mathsf{coNPEq}\\) has a \\(\leq_{ker} ^ P\\)-hard problem for
-    \\(\mathsf{PEq}\\)
+  * - We have \\(\mathsf{coNPEq}\,\\) has a \\(\leq_{ker} ^ P\\)-hard problem
+      for \\(\mathsf{PEq}\\)
   * - Buss et al. have \\(\mathsf{E}=\mathsf{NE}\\) implies a
-    \\(\mathsf{PEq}\\)-complete problem
+      \\(\mathsf{PEq}\\)-complete problem
