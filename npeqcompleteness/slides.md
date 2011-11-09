@@ -1,4 +1,4 @@
-<!SLIDE bullets incremental>
+<!SLIDE bullets incremental small>
 
 # Consequences of completeness in \\( \mathsf{NPEq} \\) #
 
@@ -8,7 +8,7 @@
 * is \\( \mathsf{NP} \\)-complete (from \\(\mathsf{CLIQUE}\\)):
 * \\((G, k) \mapsto ((G,k), (K\_k, k))\\)
 
-<!SLIDE bullets incremental>
+<!SLIDE bullets incremental small>
 
 # \\(\mathsf{NPEq}\\)-completeness implies \\(\mathsf{NP}\\)-completeness #
 
@@ -30,7 +30,7 @@
 * restriction of previous problem
 * \\(\mathsf{NP}\\)-complete by reduction which enforces \\(|V(G)|=|V(H)|\\)
 
-<!SLIDE bullets incremental>
+<!SLIDE bullets incremental small>
 
 # Sizes of equivalence classes #
 
@@ -43,7 +43,7 @@
 
 <!SLIDE bullets incremental>
 
-* in \\(B\\), given a graph \\(G\\) and a natural number \\(k\\), consider \\([(G, k)]\\)
+* in \\(B\\), given a graph \\(G\\) and a natural number \\(k\\), consider \\([(G, k)]\_B\\)
 * finite number of isomorphic graphs
 * finite number of graphs \\( H \\) such that \\(|V(G)|=|V(H)|\\)
 * and even fewer with a clique of size \\( k \\)
@@ -51,6 +51,6 @@
 
 <!SLIDE bullets incremental>
 
-* if \\(B\\) were \\(\mathsf{NPEq}-complete\\), then \\( R\leq\_{ker} ^ P B \\)
+* if \\(B\\) were \\(\mathsf{NPEq}\\)-complete, then \\( R\leq\_{ker} ^ P B \\)
 * \\( [w]\_R \\) infinite, \\( [(G, k)]\_B \\) finite
 * pigeonhole principle implies reduction not injective
