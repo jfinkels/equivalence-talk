@@ -2,13 +2,13 @@
   "name": "Polynomial time kernel reductions among equivalence relations",
   "description": "Slideshow presentation on polynomial time kernel reductions among equivalence relations.",
   "sections": [
-    "slides/intro.md",
-    "slides/exposition.md",
-    "slides/vsmanyone.md",
-    "slides/generalcompleteness.md",
-    "slides/npeqcompleteness.md",
-    "slides/intermediary.md",
-    "slides/futurework.md",
-    "slides/outro.md"
+    "slides/00intro.md",
+    "slides/01exposition.md",
+    "slides/02vsmanyone.md",
+    "slides/03generalcompleteness.md",
+    "slides/04npeqcompleteness.md",
+    "slides/05intermediary.md",
+    "slides/06futurework.md",
+    "slides/07outro.md"
   ]
 }
