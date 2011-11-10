@@ -1,0 +1,30 @@
+/**
+ * #E94E77 pink
+ * #D68189 pale pink
+ * #C6A49A gray-pink
+ * #C6E5D9 light blue
+ * #F4EAD5 beige
+ */
+
+.slide {
+  background-color: #F4EAD5;
+}
+
+.content {
+  font-family: 'Actor', sans-serif;
+}
+
+.content h1 {
+  font-family: 'Mate SC', sans-serif;
+  font-size: 6em;
+}
+
+.content ul ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+small {
+  font-size: 50%;
+}
