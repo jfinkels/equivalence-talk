@@ -2,7 +2,7 @@
 
 # Consequences of completeness in \\( \mathsf{NPEq} \\) #
 
-* \\(\\{((G, k), (H, k)) | G\,\\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\)
+* \\(\\{((G, k), (H, k)) | G\\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\)
   both have a clique of size \\(k\\}\\)
 * is in \\( \mathsf{NPEq} \\)
 * is \\( \mathsf{NP} \\)-complete (from \\(\mathsf{CLIQUE}\\)):
@@ -12,9 +12,8 @@
 
 # \\(\mathsf{NPEq}\\)-completeness implies \\(\mathsf{NP}\\)-completeness #
 
-* if \\(R\\) is \\(\mathsf{NPEq}\\)-complete, then the previous problem reduces
-  to it
-* if \\(\mathsf{GI}\\) is \\(\mathsf{NPEq}\\)-complete, then it is
+* previous problem reduces to any \\(\mathsf{NPEq}\\)-complete problem
+* if \\(\mathsf{GI}\\) is \\(\mathsf{NPEq}\\)-complete, then it is also
   \\(\mathsf{NP}\\)-complete
   * \\(\mathsf{PH}=\mathsf{\Sigma\_2P\cap\Pi\_2P}\\)
 

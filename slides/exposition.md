@@ -37,7 +37,7 @@ multigraphs, hypergraphs, etc.
 * \\(\mathsf{NPEq}\\): equivalence relations in \\(\mathsf{NP}\\)
 * contains graph isomorphism
 * can construct various others from common problems in \\(\mathsf{NP}\\):
-* \\(\\{((G, k), (H, k)) | G\, \\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\) both have a clique of size \\(k\\}\\)
+* \\(\\{((G, k), (H, k)) | G \\) is isomorphic to \\(H\\) or \\(G\\) and \\(H\\) both have a clique of size \\(k\\}\\)
 * what do we know about the clique problem?
   * (we'll return to this)
 

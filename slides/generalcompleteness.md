@@ -9,7 +9,7 @@
     problem.
   * If \\(\mathsf{NP}=\mathsf{coNP}\\) then \\(\mathsf{NPEq}\\) has a complete
     problem.
-* Ouch!
+* *Ouch!*
 
 [1]: http://www.cs.uchicago.edu/~fortnow/papers/equiv.pdf
 [2]: http://www.crm.es/Publications/11/Pr1009.pdf
@@ -42,12 +42,12 @@
 # Building a complete problem #
 
 * Canonical many-one complete problem
-  * \\(\\{(M, x, 1 ^ t) | M \,\\) accepts \\( x \\) within \\( t \\) steps \\( \\} \\)
+  * \\(\\{(M, x, 1 ^ t) | M \\) accepts \\( x \\) within \\( t \\) steps \\( \\} \\)
 * How can we turn this into an equivalence relation?
 
 <!SLIDE bullets incremental>
 
-* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M\: \\) accepts \\( (x, y) \\) in \\(
+* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M \\) accepts \\( (x, y) \\) in \\(
   \leq t \\) steps \\( \\} \\)
 * Not reflexive
 
@@ -55,7 +55,7 @@
 
 * \\(\\{(u,v)|u=v\\}\\)
 * \\(\cup \\)
-* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M\; \\) accepts
+* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) | M \\) accepts
   \\((x, y)\, \\) within \\( t \\) steps \\( \\} \\)
 * Not symmetric or transitive
 * Especially not for arbitrary machines!
@@ -68,10 +68,16 @@
 
 # How? #
 
-* Suppose there is a machine, \\( A \\), which on input \\((M, n)\\) decides
-  whether the pairs of strings which \\( M \\) accepts define an equivalence
-  relation on strings of length at most \\(n\\).
-* \\(\\{(u,v)|u=v\\} \cup \\{((M, x, 1 ^ {t\_x}), (M, y, 1 ^ {t\_y})) |\\)
+* suppose algorithm \\( A \\)
+* on input \\((M, n)\\)
+  * (\\(M\\) takes pairs of strings)
+* decides if \\( M \\) accepts an equivalence relation on \\(\Sigma ^ {\leq n}\\)
+
+<!SLIDE bullets>
+
+* \\(\\{(u,v)|u=v\\}\\)
+* \\(\cup \\)
+* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) |\\)
   * \\( M \\) is a polynomially clocked \\(\mathcal{C}\\) machine
   * \\( M \\) accepts \\( (x, y) \\)
   * \\( A \\) accepts \\( (M, |x|) \\) within \\(t\_x\\) steps
