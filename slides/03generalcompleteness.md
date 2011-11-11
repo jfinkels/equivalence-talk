@@ -77,7 +77,7 @@
 
 * \\(\\{(u,v)|u=v\\}\\)
 * \\(\cup \\)
-* \\(\\{((M, x, 1 ^ t), (M, y, 1 ^ t)) |\\)
+* \\(\\{((M, x, 1 ^ {t\_x}), (M, y, 1 ^ {t\_y})) |\\)
   * \\( M \\) is a polynomially clocked \\(\mathcal{C}\\) machine
   * \\( M \\) accepts \\( (x, y) \\)
   * \\( A \\) accepts \\( (M, |x|) \\) within \\(t\_x\\) steps
