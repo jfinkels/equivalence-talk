@@ -1,1 +1,3 @@
 * creative commons pigeonhole picture http://en.wikipedia.org/wiki/File:TooManyPigeons.jpg
+* Use Kramdown instead of Markdown parser to get LaTeX http://kramdown.rubyforge.org
+
